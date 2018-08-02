@@ -1,0 +1,33 @@
+<html>
+<head>
+<h1> Court Login </h1>
+<link rel="stylesheet" href="Industry.css">
+</head>
+<div id="div2">
+	<form action="evidence.html" target="blank">
+        <label> Case id </label>
+        <input type="text" placeholder="Enter your case id here..">
+       <br>
+	<label> Judge/Police License Number </label>
+	<input type="text" placeholder="Enter your Judge/Police License Number here..">
+	<br>
+	<label> Password </label>
+	<input type="password" placeholder="Enter your password here..">
+	<input type="submit">
+	</form>
+</div>
+<script>
+	$( "#div2" ).submit(function( event ) {
+  		//event.preventDefault();
+          $(div2").click(function(e){
+      //e.preventDefault();
+    $.ajax({type: "post",
+            url: "http://192.168.43.221:8080",
+            data: { id: $("div2").val(), access_token: $("access_token").val() },
+            success:function(result){	
+                $("#div2").html(result);
+    }});
+    });
+	});
+</script>  
+</html>

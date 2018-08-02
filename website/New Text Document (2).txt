@@ -1,0 +1,19 @@
+<html>
+<head>
+<link rel="stylesheet" href="Industry.css">
+</head>
+<div>
+	<form>
+	<label> Email/Phone </label>
+        <input type="text" placeholder="Enter your Email/Phone here...">
+	</form>
+        <br>
+	<form>
+	<label> Password </label>
+	<input type="password" placeholder="Enter your password here...">
+	<form>
+	<input type="submit"> 
+	</form>
+
+</div>
+</html>

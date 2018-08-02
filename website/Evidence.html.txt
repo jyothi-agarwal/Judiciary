@@ -1,0 +1,15 @@
+<html>
+<head>
+<title> EVIDENCE </title>
+<h1> EVIDENCE SECTION </h1>
+<link rel="stylesheet" href="Industry.css" >
+</head>
+<body>
+<div>
+<form>
+
+</form>
+</div>
+</body>
+
+</html>
